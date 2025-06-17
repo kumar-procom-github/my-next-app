@@ -8,7 +8,7 @@ export default function Header() {
     <header className="sticky top-0 bg-white shadow z-50">
       <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
         <Link href="/">
-          <Image src="/logo.png" alt="Logo" width={100} height={50} />
+          <Image src="/vegan.png" alt="Logo" width={100} height={50} />
         </Link>
         <nav className="flex items-center space-x-6">
           <Link href="/" className="hover:text-yellow-600">Home</Link>
