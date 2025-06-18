@@ -1,14 +1,20 @@
 export default function Home() {
   return (
     <main className="min-h-screen bg-white text-gray-800">
-      
-      {/* Hero Section */}
-      <section className="bg-green-900 text-white py-20 text-center">
-        <h1 className="text-5xl font-bold mb-4">Welcome to My Site</h1>
-        <p className="text-lg mb-6">We build amazing web experiences</p>
-        <button className="bg-white text-blue-600 px-6 py-2 rounded-full font-semibold">
-          Get Started
-        </button>
+      <section className="min-h-screen flex flex-col items-center justify-center bg-black text-white text-center px-6">
+        <h1 className="text-5xl font-bold mb-4">Your Gateway to Premium</h1>
+        <h2 className="text-4xl text-yellow-400 font-bold mb-6">UAE Real Estate</h2>
+        <p className="max-w-xl text-lg mb-6">
+          Expert guidance for US investors seeking high-yield property opportunities in Dubai and the UAE.
+        </p>
+        <div className="flex gap-4">
+          <button className="bg-yellow-500 text-black px-6 py-3 rounded transition duration-300 ease-in-out hover:bg-light-yellow-600 hover:text-white">
+            Explore Investment Opportunities
+          </button>
+          <button className="border border-white px-6 py-3 rounded transition duration-300 ease-in-out hover:bg-white hover:text-black">
+            Our Services
+          </button>
+        </div>
       </section>
 
       {/* About Section */}
