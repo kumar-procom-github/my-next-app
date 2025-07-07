@@ -1,21 +1,9 @@
+import MyComponent from '../components/Hero';
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-white text-gray-800">
-      <section className="min-h-screen flex flex-col items-center justify-center bg-black text-white text-center px-6">
-        <h1 className="text-5xl font-bold mb-4">Your Gateway to Premium</h1>
-        <h2 className="text-4xl text-yellow-400 font-bold mb-6">UAE Real Estate</h2>
-        <p className="max-w-xl text-lg mb-6">
-          Expert guidance for US investors seeking high-yield property opportunities in Dubai and the UAE.
-        </p>
-        <div className="flex gap-4">
-          <button className="bg-yellow-500 text-black px-6 py-3 rounded transition duration-300 ease-in-out hover:bg-light-yellow-600 hover:text-white">
-            Explore Investment Opportunities
-          </button>
-          <button className="border border-white px-6 py-3 rounded transition duration-300 ease-in-out hover:bg-white hover:text-black">
-            Our Services
-          </button>
-        </div>
-      </section>
+      <MyComponent />
 
       {/* About Section */}
       <section className="py-16 px-8 bg-gray-100 text-center">

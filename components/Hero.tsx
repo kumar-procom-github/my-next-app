@@ -1,4 +1,6 @@
 // app/components/Hero.tsx
+import Greeting from '../components/Greeting';
+
 export default function Hero() {
   return (
     <section className="bg-black text-white h-screen flex flex-col items-center justify-center text-center px-4">
@@ -6,7 +8,7 @@ export default function Hero() {
         Your Gateway to Premium
       </h1>
       <h2 className="text-3xl md:text-5xl font-bold text-yellow-500 mb-6">
-        UAE Real Estate
+        <Greeting name={'kumar'}/>
       </h2>
       <p className="max-w-2xl text-lg md:text-xl mb-8">
         Expert guidance for US investors seeking high-yield property opportunities
